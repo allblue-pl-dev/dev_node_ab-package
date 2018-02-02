@@ -1,6 +1,6 @@
 {
   "name": "ab-package_test",
-  "version": "0.0.1",
+  "version": "0.1.2",
   "description": "Test package for `ab-package` package (a lot of `package` in this description... package).",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/allblue-pl-dev/dev_node_ab-package/issues"
   },
-  "homepage": "https://github.com/allblue-pl-dev/dev_node_ab-package#readme"
+  "homepage": "https://github.com/allblue-pl-dev/dev_node_ab-package#readme",
+  "dependencies": {
+    "ab-package": "0.0.*"
+  }
 }
